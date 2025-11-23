@@ -1,25 +1,25 @@
 # Chemical Equipment Parameter Visualizer
 
-A hybrid Web and Desktop application for visualizing and analyzing chemical equipment data. [cite_start]This project was built as part of an Intern Screening Task[cite: 3].
+A hybrid Web and Desktop application for visualizing and analyzing chemical equipment data. This project was built as part of an Intern Screening Task.
 
-[cite_start]It consists of a **Django Backend** that processes CSV data, a **React Web Frontend** for browser-based analytics, and a **PyQt5 Desktop Application** for local usage[cite: 13].
+It consists of a **Django Backend** that processes CSV data, a **React Web Frontend** for browser-based analytics, and a **PyQt5 Desktop Application** for local usage.
 
 ## 🚀 Key Features
-* [cite_start]**Hybrid Architecture:** Single Django backend serving both Web (React) and Desktop (PyQt5) frontends[cite: 22].
-* [cite_start]**Data Analysis:** Parses CSV files to calculate total count, parameter averages, and equipment type distribution[cite: 16].
-* [cite_start]**Visualization:** Interactive Pie charts (Web) and Bar charts (Desktop)[cite: 17].
-* [cite_start]**History Management:** Stores the last 5 uploads with clickable summaries to reload past analytics[cite: 18].
-* [cite_start]**PDF Reporting:** Generates downloadable PDF reports of the analysis[cite: 19].
-* [cite_start]**Authentication:** Basic Authentication required for uploading and viewing sensitive data[cite: 19].
+* **Hybrid Architecture:** Single Django backend serving both Web (React) and Desktop (PyQt5) frontends.
+* **Data Analysis:** Parses CSV files to calculate total count, parameter averages, and equipment type distribution.
+* **Visualization:** Interactive Pie charts (Web) and Bar charts (Desktop).
+* **History Management:** Stores the last 5 uploads with clickable summaries to reload past analytics.
+* **PDF Reporting:** Generates downloadable PDF reports of the analysis.
+* **Authentication:** Basic Authentication required for uploading and viewing sensitive data.
 
 ## 🛠️ Tech Stack
 | Component | Technology | Purpose |
 | :--- | :--- | :--- |
-| **Backend** | Python Django + DRF | [cite_start]API, CSV Parsing, PDF Generation [cite: 13] |
-| **Web Frontend** | React.js + Chart.js | [cite_start]Responsive Web Dashboard [cite: 13] |
-| **Desktop Frontend** | PyQt5 + Matplotlib | [cite_start]Native Desktop Interface [cite: 13] |
-| **Data Handling** | Pandas | [cite_start]Data processing & analytics [cite: 13] |
-| **Database** | SQLite | [cite_start]Storing upload history [cite: 13] |
+| **Backend** | Python Django + DRF | API, CSV Parsing, PDF Generation  |
+| **Web Frontend** | React.js + Chart.js | Responsive Web Dashboard  |
+| **Desktop Frontend** | PyQt5 + Matplotlib | Native Desktop Interface  |
+| **Data Handling** | Pandas | Data processing & analytics  |
+| **Database** | SQLite | Storing upload history  |
 
 ---
 
